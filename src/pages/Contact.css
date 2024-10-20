@@ -1,0 +1,51 @@
+.contact-section {
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff; /* Set text color to white */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #333; /* Dark background for contrast */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 100px; /* Set a height for the textarea */
+}
+
+.submit-button {
+  background-color: #646cff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #535bf2;
+}
+
