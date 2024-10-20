@@ -56,3 +56,20 @@ nav li.active {
   font-weight: bold; /* Make the active link bold */
   text-decoration: underline; /* Underline the active link */
 }
+
+.project-list {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center items */
+}
+
+.project {
+  margin: 20px; /* Space between projects */
+  text-align: center; /* Center text */
+}
+
+.project img {
+  width: 100%; /* Make images responsive */
+  max-width: 200px; /* Set a max width */
+  border-radius: 10px; /* Rounded corners */
+}

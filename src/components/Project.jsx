@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Project component that displays individual project details
 const Project = ({ title, image, appLink, repoLink }) => (
   <div className="project">
     <img src={image} alt={`${title} screenshot`} />
@@ -10,4 +11,3 @@ const Project = ({ title, image, appLink, repoLink }) => (
 );
 
 export default Project;
-
