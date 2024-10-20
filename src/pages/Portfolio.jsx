@@ -6,16 +6,64 @@ const Portfolio = () => {
   // Project data
   const projects = [
     {
-      title: 'Project One',
-      image: 'https://picsum.photos/200', // Placeholder image
-      appLink: 'https://example.com', // TODO: Replace with actual link
-      repoLink: 'https://github.com/yourusername/project-one', // TODO: Replace with actual link
+      title: 'Prework Study Guide',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/prework-study-guide',
     },
     {
-      title: 'Project Two',
-      image: 'https://picsum.photos/200', // Placeholder image
-      appLink: 'https://example.com', // TODO: Replace with actual link
-      repoLink: 'https://github.com/chrsipychips12', 
+      title: 'Mini Project 1',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/mini-project-1',
+    },
+    {
+      title: 'Advanced CSS Wireframe',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/Advanced-CSS-Wireframe-1',
+    },
+    {
+      title: 'USYD Challenge Week 1',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/USYD-Challenge-week1',
+    },
+    {
+      title: 'Pay Roll Tracker',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/Pay-Roll-Tracker',
+    },
+    {
+      title: 'Personal Blog Template',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/Personal-Blog-Template',
+    },
+    {
+      title: 'Personal Task Board',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/personal-task-board',
+    },
+    {
+      title: 'Weather Dashboard',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/weather-dashboard',
+    },
+    {
+      title: 'ReadMe Generator',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/potential-enigma',
+    },
+    {
+      title: 'SVG Logo Generator',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/svg-logo-generator',
+    },
+    {
+      title: 'Express Note Taker',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/express-note-taker',
+    },
+    {
+      title: 'Employee Tracker',
+      image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', // GitHub logo
+      repoLink: 'https://github.com/chrispychips12/employee-tracker',
     },
   ];
 
@@ -28,7 +76,6 @@ const Portfolio = () => {
             key={project.title} 
             title={project.title} 
             image={project.image} 
-            appLink={project.appLink} 
             repoLink={project.repoLink} 
           />
         ))}
@@ -38,4 +85,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-

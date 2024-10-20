@@ -8,7 +8,7 @@ import Resume from './pages/Resume'; // Import Resume page
 import './App.css';
 
 function App() {
-  const [currentSection, setCurrentSection] = useState('About Me') // State to track the current section
+  const [currentSection, setCurrentSection] = useState('About Me'); // State to track the current section
 
   // Function to render the current section based on state
   const renderSection = () => {
@@ -27,11 +27,10 @@ function App() {
   return (
     <div>
       <Header setCurrentSection={setCurrentSection} /> {/* Render Header */}
-      <h1>My Portfolio</h1>
       {renderSection()} {/* Render the current section */}
       <Footer /> {/* Render Footer */}
     </div>
   );
 }
 
-export default App
+export default App;
