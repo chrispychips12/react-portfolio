@@ -68,7 +68,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section>
+    <section className="fade-in">
       <h2>Portfolio</h2>
       <div className="project-list">
         {projects.map((project) => (

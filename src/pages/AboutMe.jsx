@@ -1,9 +1,11 @@
 import React from 'react';
+import TypingEffect from '../components/TypingEffect';
 
 // AboutMe component that displays a brief bio and a placeholder image
 const AboutMe = () => (
   <section>
     <h2>About Me</h2>
+    <TypingEffect />
     <img 
       src="https://picsum.photos/150" // Placeholder image URL
       alt="Christopher Concepcion" 

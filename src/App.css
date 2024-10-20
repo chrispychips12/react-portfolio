@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+section {
+  margin-bottom: 2rem; /* Add spacing between sections */
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  section {
+    margin-bottom: 1.5rem; /* Reduce spacing on smaller screens */
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -67,10 +81,42 @@ nav li.active {
 .project {
   margin: 20px; /* Space between projects */
   text-align: center; /* Center text */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
   width: 100%; /* Make images responsive */
   max-width: 200px; /* Set a max width */
   border-radius: 10px; /* Rounded corners */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-in-out forwards;
 }

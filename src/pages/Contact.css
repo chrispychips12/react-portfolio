@@ -5,7 +5,7 @@
 }
 
 .contact-form {
-  max-width: 600px;
+  max-width: 100%; /* Allow form to take full width on mobile */
   margin: 0 auto;
   background-color: #333; /* Dark background for contrast */
   padding: 2rem;
@@ -42,10 +42,42 @@ textarea {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .submit-button:hover {
   background-color: #535bf2;
+  transform: translateY(-2px);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+}
