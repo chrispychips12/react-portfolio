@@ -4,13 +4,13 @@ This is my personal portfolio built using React. It showcases my projects, skill
 
 ## Deployed Application
 
-You can view the deployed application at: [React Portfolio](https://6714d069dc3fa0c423000460--wonderful-chimera-ef42cf.netlify.app)
+You can view the deployed application [here](https://6714d069dc3fa0c423000460--wonderful-chimera-ef42cf.netlify.app)
 
 <img width="1688" alt="Screenshot 2024-10-20 at 8 40 09 PM" src="https://github.com/user-attachments/assets/4fc32aa0-49dc-4c2d-8020-6850d779329f">
 
 ## Contact
 
-Feel free to reach out to me on GitHub: [My GitHub](https://github.com/chrispychips12)
+Check out my repo here [My GitHub](https://github.com/chrispychips12)
 
 ## User Story
 
