@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 // Header component 
 const Header = ({ setCurrentSection }) => (
   <header>
-    <h1>Developer Name</h1>
+    <h1>Christopher Concepcion</h1> 
     <Navigation setCurrentSection={setCurrentSection} /> 
   </header>
 );

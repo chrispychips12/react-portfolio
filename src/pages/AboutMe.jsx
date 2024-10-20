@@ -6,12 +6,15 @@ const AboutMe = () => (
     <h2>About Me</h2>
     <img 
       src="https://picsum.photos/150" // Placeholder image URL
-      alt="Developer Avatar" 
+      alt="Christopher Concepcion" 
       style={{ width: '150px', borderRadius: '50%' }} 
     />
     <p>
-      Hello! I'm a passionate web developer with experience in building dynamic and responsive web applications.
-      I love coding and enjoy learning new technologies.
+      Hello! I'm Christopher Concepcion, a passionate web developer with experience in building dynamic and responsive web applications.
+      I love coding and enjoy learning new technologies. My goal is to create user-friendly and efficient applications that solve real-world problems.
+    </p>
+    <p>
+      You can view my work at <a href="https://seejayc.com" target="_blank" rel="noopener noreferrer">seejayc.com</a>.
     </p>
   </section>
 );
