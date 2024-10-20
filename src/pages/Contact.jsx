@@ -10,7 +10,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic 
+    // Handle form submission logic (e.g., send data to an API)
     console.log('Form submitted:', formData);
   };
 
@@ -48,4 +48,3 @@ const Contact = () => {
 };
 
 export default Contact; // Export the Contact component
-
