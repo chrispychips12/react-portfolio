@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const Header = () => (
+// Header component 
+const Header = ({ setCurrentSection }) => (
   <header>
     <h1>Developer Name</h1>
-    <Navigation />
+    <Navigation setCurrentSection={setCurrentSection} /> 
   </header>
 );
 
 export default Header;
-
